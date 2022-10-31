@@ -1,0 +1,57 @@
+.header-image img {
+  height: 33vw;
+  top: 0;
+  margin-bottom: 1em;
+}
+
+.navbar-brand {
+  font-family: 'Bodoni MT', serif ;
+}
+
+.navbar-toggler {
+  color: rgb(232, 166, 0);
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: rgb(244, 244, 244);
+  overflow: visible;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  color: rgb(21, 27, 101);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(232, 166, 0);
+}
+
+@media screen and (min-width:992px) {
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid rgb(220, 220, 220);
+  }
+}
+
+@media screen and (max-width:991px) {
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-bottom: 1px solid rgb(220, 220, 220);
+  }
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
